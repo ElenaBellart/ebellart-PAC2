@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$font-family-sans-serif: 'Helvetica','Arial',sans-serif;
+$font-family-base:'Helvetica','Arial',sans-serif;
+$mqMinWidth: 420px;
+
+/* Colors */
+$primary: #c80be3;
+$secondary: #8314cc;
+$info: #520be3;
+$success: color.scale($primary, $lightness: 80%);
+$warn: color.scale($info, $lightness: 80%);
+$light: rgb(255, 255, 255);
+$theme-colors: ("primary": $primary, 
+"secondary": $secondary, "light": $light, "info": $info, "success": $success, "warn": $warn);

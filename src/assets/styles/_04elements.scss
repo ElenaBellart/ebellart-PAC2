@@ -1,0 +1,42 @@
+/*
+04 / Elements
+Unclassed HTML elements (type selectors: a {}, blockquote {}, address {}, etc.).
+*/
+@import "02tools";
+@import "01settings";
+
+.nav-link {
+  color: $success;
+}
+
+.nav-link:hover {
+  color: $light;
+}
+
+.nav-link.active {
+  color: $light;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: $light;
+}
+
+.navbar-brand:hover {
+  color: $success;
+}
+
+blockquote {
+  font-size: 1.7rem;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

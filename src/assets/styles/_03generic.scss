@@ -1,0 +1,16 @@
+/*
+03 / Generic
+“Ground-zero” styles. Low-specificity, high-level, far-reaching rulesets 
+(e.g. normalize, resets, box-sizing).
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font-family-base;
+  color: $dark;
+}
